@@ -1,33 +1,130 @@
-                .top-navbar {
-                    background-color: black;
-                    height: 120px;
-                }
-                
-                .img {
-                    height: 60px;
-                    margin-top: 30px;
-                    margin-left: 15px;
-                }
-                
-                .text {
-                    color: #ffff;
-                    font-size: 40px;
-                    position: relative;
-                    bottom: 10px;
-                }
-                
-                .home {
-                    color: #ffff;
-                    position: relative;
-                    bottom: 10px;
-                    font-size: 40px;
-                    left: 600px;
-                }
-                
-                .logout {
-                    left: 1300px;
-                    color: #ffff;
-                    position: relative;
-                    font-size: 40px;
-                    bottom: 10px;
-                }
+    .top-navbar {
+        background-color: black;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .img {
+        height: 60px;
+        margin: 40px auto;
+        margin-left: 15px;
+    }
+    
+    .text {
+        color: #ffff;
+        font-size: 40px;
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .home {
+        color: #ffff;
+        position: relative;
+        bottom: 10px;
+        font-size: 40px;
+        left: 200px;
+    }
+    
+    .logout {
+        left: 1300px;
+        color: #ffff;
+        position: relative;
+        font-size: 40px;
+        bottom: 10px;
+    }
+    
+    .heading {
+        font-size: 40px;
+        position: fixed;
+        left: 250px;
+    }
+    
+    .div {
+        left: 250px;
+        position: fixed;
+        margin-bottom: 10px;
+    }
+    
+    .practice {
+        color: #339933;
+        margin: 15px;
+    }
+    
+    .courses {
+        background-color: #ffcc00;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 35px;
+        margin: 15px;
+    }
+    
+    .login {
+        background-color: black;
+        color: #fff;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 35px;
+        margin-left: 20px;
+        margin: 15px;
+    }
+    
+    .parent {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .button {
+        right: -800px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        border-radius: 10px;
+        height: 120px;
+        border: none;
+        padding: 10px;
+        margin-top: none;
+    }
+    
+    .bottom-bar {
+        position: sticky;
+        right: 10px;
+        height: 10px;
+        width: 50px;
+    }
+    
+    .img {
+        margin: 10px auto;
+        border-radius: 50px;
+    }
+    
+    .bottom {
+        bottom: 5px;
+        border: 1px solid black;
+        width: 600px;
+        text-align: center;
+        margin: 10px auto;
+        position: sticky;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        background-color: #fff
+    }
+    
+    .span {
+        height: 400px;
+        width: 400px;
+        background-color: aqua;
+    }
+    
+    .box {
+        border-radius: 10px;
+        height: 150px;
+        margin: 10px auto;
+        width: 950px;
+        background-color: beige;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
